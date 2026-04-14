@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pomodoro Timer First Brainstorm</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="screenshots/example.png">
+</head>
+<body>
+    <header>
+        <h1>Pomodoro Timer First Brainstorm</h1>
+        <h2>Brainstorming Meeting</h2>
+        <nav>
+            <a href="#attendance">Attendance</a>
+            <a href="#agenda">Agenda</a>
+            <a href="#media">Media</a>
+            <a href="#form">Form</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Date</h2>
+            <p>April 14, 2026</p>
+        </section>
+
+        <section id="attendance">
+            <h2>Attendance</h2>
+            <ul>
+                <li><strong>Mohammed Ameen</strong></li>
+                <li><b>Alex</b></li>
+                <li><i>Sarah</i></li>
+            </ul>
+        </section>
+
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <ol>
+                <li>Discuss the timer idea</li>
+                <li>Talk about features</li>
+                <li>Plan next steps</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Unfinished Business</h2>
+            <p>We still need to decide how the timer history should be stored.<br>We also need to finalize the homepage layout.</p>
+        </section>
+
+        <section>
+            <h2>New Business</h2>
+            <p><em>The group discussed adding short break and long break options.</em></p>
+        </section>
+
+        <section>
+            <h2>Miscellaneous Comments</h2>
+            <h3>Questions and Concerns</h3>
+            <p>We talked about keeping the interface simple and easy to use.</p>
+            <hr>
+            <div>
+                <p>This <span>section</span> is included to satisfy the required HTML elements list.</p>
+            </div>
+        </section>
+
+        <section id="media">
+            <h2>Diagram</h2>
+            <img src="screenshots/example.png" alt="Whiteboard sketch from the meeting">
+
+            <h3>Audio Recording</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+
+            <h3>Video Recording</h3>
+            <video controls width="320">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section>
+            <h2>Additional Notes</h2>
+            <details>
+                <summary>View meeting note</summary>
+                <p>The team agreed to bring a rough prototype to the next meeting.</p>
+            </details>
+        </section>
+
+        <section id="form">
+            <h2>Feedback Form</h2>
+            <form>
+                <fieldset>
+                    <p>Name:</p>
+                    <input type="text">
+
+                    <p>Date:</p>
+                    <input type="date">
+
+                    <p>Role:</p>
+                    <input type="radio" name="role" value="developer"> Developer
+                    <input type="radio" name="role" value="designer"> Designer
+
+                    <p>Completed Tasks:</p>
+                    <input type="checkbox" name="task-ui"> UI
+                    <input type="checkbox" name="task-planning"> Planning
+
+                    <p>Comments:</p>
+                    <textarea></textarea>
+
+                    <p>Preferred Tool:</p>
+                    <select>
+                        <option>VS Code</option>
+                        <option>IntelliJ</option>
+                    </select>
+
+                    <p>Suggestion:</p>
+                    <input list="suggestions">
+                    <datalist id="suggestions">
+                        <option value="Add dark mode"></option>
+                        <option value="Add sound alert"></option>
+                    </datalist>
+
+                    <p><button type="submit">Submit</button></p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Meeting minutes prepared for Lab 2.</p>
+    </footer>
+</body>
+</html>
